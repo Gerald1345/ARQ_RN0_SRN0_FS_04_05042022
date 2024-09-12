@@ -1,0 +1,92 @@
+while true 
+do 
+ 
+	OPCION="" 
+	while [ "x$OPCION" = x ] 
+	do 
+	echo -e "\n\n\t##################################\n\t\c" 
+	echo -e "ARQ_RN0_SRN0_FS" 
+	echo -e "\t##################################\n" 
+	echo -e "\t[1] 10.252.140.91	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[2] 10.252.140.92	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[3] 10.252.140.93	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[4] 10.252.140.94	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[5] 10.252.140.95	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[6] 10.252.140.96	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[7] 10.252.140.97	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[8] 10.252.140.98	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[9] 10.252.140.99	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[10] 10.252.140.100	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[11] 10.252.140.101	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[12] 10.252.140.102	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[13] 10.252.140.103	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[14] 10.252.140.104	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[15] 10.252.140.105	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[16] 10.252.140.106	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[17] 10.252.140.107	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[18] 10.252.140.108	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[19] 10.252.140.109	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[20] 10.252.140.110	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[21] 10.252.140.111	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[22] 10.252.140.112	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[23] 10.252.140.113	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[24] 10.252.140.114	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[25] 10.252.140.115	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[26] 10.252.140.116	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[27] 10.252.140.117	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[28] 10.252.140.118	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[29] 10.252.140.119	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[30] 10.252.140.120	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[31] 10.252.140.121	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[32] 10.252.140.122	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[33] 10.252.140.123	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[34] 10.252.140.124	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[35] 10.252.140.125	ARQ_RN0_SRN0_FS		" 
+	echo -e "\t[36] 10.252.140.126	ARQ_RN0_SRN0_FS		" 
+	echo -e 
+	echo -e "\t[0] Regresar" 
+	
+	echo -e "\n\tIngrese la opcion deseada:\c" 
+	read OPCION 
+	case ${OPCION} in 
+	1) xtelnetg 10.252.140.91	 22 ;; 
+	2) xtelnetg 10.252.140.92	 22 ;; 
+	3) xtelnetg 10.252.140.93	 22 ;; 
+	4) xtelnetg 10.252.140.94	 22 ;; 
+	5) xtelnetg 10.252.140.95	 22 ;; 
+	6) xtelnetg 10.252.140.96	 22 ;; 
+	7) xtelnetg 10.252.140.97	 22 ;; 
+	8) xtelnetg 10.252.140.98	 22 ;; 
+	9) xtelnetg 10.252.140.99	 22 ;; 
+	10) xtelnetg 10.252.140.100	 22 ;; 
+	11) xtelnetg 10.252.140.101	 22 ;; 
+	12) xtelnetg 10.252.140.102	 22 ;; 
+	13) xtelnetg 10.252.140.103	 22 ;; 
+	14) xtelnetg 10.252.140.104	 22 ;; 
+	15) xtelnetg 10.252.140.105	 22 ;; 
+	16) xtelnetg 10.252.140.106	 22 ;; 
+	17) xtelnetg 10.252.140.107	 22 ;; 
+	18) xtelnetg 10.252.140.108	 22 ;; 
+	19) xtelnetg 10.252.140.109	 22 ;; 
+	20) xtelnetg 10.252.140.110	 22 ;; 
+	21) xtelnetg 10.252.140.111	 22 ;; 
+	22) xtelnetg 10.252.140.112	 22 ;; 
+	23) xtelnetg 10.252.140.113	 22 ;; 
+	24) xtelnetg 10.252.140.114	 22 ;; 
+	25) xtelnetg 10.252.140.115	 22 ;; 
+	26) xtelnetg 10.252.140.116	 22 ;; 
+	27) xtelnetg 10.252.140.117	 22 ;; 
+	28) xtelnetg 10.252.140.118	 22 ;; 
+	29) xtelnetg 10.252.140.119	 22 ;; 
+	30) xtelnetg 10.252.140.120	 22 ;; 
+	31) xtelnetg 10.252.140.121	 22 ;; 
+	32) xtelnetg 10.252.140.122	 22 ;; 
+	33) xtelnetg 10.252.140.123	 22 ;; 
+	34) xtelnetg 10.252.140.124	 22 ;; 
+	35) xtelnetg 10.252.140.125	 22 ;; 
+	36) xtelnetg 10.252.140.126	 22 ;; 
+	 
+	0) exit ;; 
+  esac 
+ done 
+done 
